@@ -1,6 +1,16 @@
 # 📒 Notes-to-Quiz
 
-Notes-to-Quiz is a React + Vite application designed to transform your notes into interactive quizzes. The app provides a seamless way to create, manage, and take quizzes based on your study material, making learning more engaging and effective.
+Notes-to-Quiz is an AI Powered React + Vite application designed to transform your notes into interactive quizzes. The app provides a seamless way to create, manage, and take quizzes based on your study material, making learning more engaging and effective.
+
+## ⚠️ Important
+
+This app requires a .env file with the following environment variables to function properly:
+
+```
+VITE_GITHUB_TOKEN=your_github_token
+VITE_GITHUB_MODEL=your_model # Personally I used openai/gpt-4.1
+```
+You can generate and manage your GitHub token at: https://github.com/settings/tokens
 
 ## 🖼️ Screenshots
 
